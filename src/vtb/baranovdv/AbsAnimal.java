@@ -53,9 +53,6 @@ class Duck extends Animal implements Run, Swim, Fly{
     }
 }
 
-class Interface {
-}
-
 interface Fly  {
 
     public default void fly() {
